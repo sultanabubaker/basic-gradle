@@ -16,7 +16,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile 'io.takari:takari-archiver:0.1.18'
     implementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
-    implementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
